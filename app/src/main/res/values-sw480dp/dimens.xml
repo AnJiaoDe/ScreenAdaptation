@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="height_title">64.00dp</dimen>
+	<dimen name="sp18">24.00sp</dimen>
+	<dimen name="padding_icon">16.00dp</dimen>
+	<dimen name="dp360">480.00dp</dimen>
+	<dimen name="sp10">13.33sp</dimen>
+	<dimen name="dp30">40.00dp</dimen>
+	<dimen name="dp10">13.33dp</dimen>
+	<dimen name="sp14">18.67sp</dimen>
+	<dimen name="dp40">53.33dp</dimen>
+	<dimen name="dp70">93.33dp</dimen>
+	<dimen name="dp100">133.33dp</dimen>
+	<dimen name="dp80">106.67dp</dimen>
+	<dimen name="sp12">16.00sp</dimen>
+	<dimen name="dp60">80.00dp</dimen>
+	<dimen name="_dp10">-13.33dp</dimen>
+	<dimen name="dp4_5">6.00dp</dimen>
+	<dimen name="_dp5_5">-7.33dp</dimen>
+</resources>

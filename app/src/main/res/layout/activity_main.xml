@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title"
+        android:background="#1d953f"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_toRightOf="@+id/iv_back"
+            android:gravity="center_vertical"
+
+            android:text="屏幕适配"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp18" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+
+            android:padding="@dimen/padding_icon"
+            android:scaleType="centerInside"
+            android:src="@drawable/back" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp360">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/dp360"
+            android:layout_height="@dimen/dp360"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rec" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp18" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/dp40"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginLeft="@dimen/_dp5_5"
+            android:background="#436876" />
+
+        <com.cy.screenadaptation.ViewCanMeasure
+            android:id="@+id/view_bottom"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp60"
+            android:background="#00f"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp12" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <View
+            android:layout_width="@dimen/dp4_5"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginRight="@dimen/dp10"
+            android:background="#00f" />
+
+        <View
+            android:layout_width="@dimen/dp40"
+            android:layout_height="@dimen/dp40"
+            android:layout_marginRight="@dimen/_dp10"
+            android:background="#f00" />
+    </LinearLayout>
+
+</LinearLayout>
