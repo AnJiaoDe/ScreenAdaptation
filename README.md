@@ -1,8 +1,4 @@
- 微信公众号
-  
- ![这里写图片描述](http://upload-images.jianshu.io/upload_images/11866078-a6969884111cd3b4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
- 
-[简书](https://www.jianshu.com/u/b8159d455c69)
+
 
 [APKdemo](https://github.com/AnJiaoDe/DPScreenAdaptation/blob/master/app/build/outputs/apk/app-debug.apk)
 
@@ -660,10 +656,3 @@ public class MainActivity extends AppCompatActivity {
 
 关注专题[Android开发常用开源库](https://www.jianshu.com/c/3ff4b3951dc5)
 
-[简书](https://www.jianshu.com/u/b8159d455c69)
-
- 微信公众号
- ![这里写图片描述](http://upload-images.jianshu.io/upload_images/11866078-fcfbb45175f99de0?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-QQ群
-![这里写图片描述](http://upload-images.jianshu.io/upload_images/11866078-a31ff40ac6850a6d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
